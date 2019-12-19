@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 50vmin;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.navbarTop {
+  width: 100%;
+  padding: 10px 0px;
+  font-weight: bold;
+  font-size: x-large;
+  background-color: #09d3ac;
+  color: white;
+}
+
+.navbarBottom {
+  width: 100%;
+  padding: 15px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.centerVertically {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centerHorizontally {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+button.buttonTheme {
+  color: white;
+  background-color: #09d3ac;
+  font-weight: bold;
+  font-size: medium;
+}
